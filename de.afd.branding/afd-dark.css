@@ -1,0 +1,54 @@
+:root {
+    /* Primary:  #00ccff */
+    --ts-new-header-bg: #00ccff !important;
+    --tsv-server-header-gradient-start: #00ccff !important;
+    --tsv-tint: #00ccff !important;
+
+    /* Secondary:  #006699 */
+    --tsv-side-bar-bg-gradient-bottom: #006699 !important;
+    --tsv-server-header-gradient-end: #006699 !important;
+    --strong-bg: #006699 !important;
+    --tsv-bg: #006699 !important;
+    --tsv-shaded-bg: #006699 !important;
+    /* Font */
+    --tsv-font-subtitle-color: lightgray !important;
+    --afd-red: #cc0000;
+}
+
+.ts-title-logo {
+    background-image: url("tsui://extension/de.jaxnprivate.afd/logo-light.png") !important;
+    content: " ";
+    width: 100% !important;
+    height: 2.5rem !important;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 1rem;
+}
+
+.ts-title-logo > svg {
+    display: none;
+}
+
+#ts-app-loading-overlay {
+    background-color: var(--tsv-side-bar-bg-gradient-bottom) !important;
+}
+
+.ts-background-hexes-container, .ts-activities-placeholder {
+    display: block !important;
+}
+
+.ts-input-wrapper > input {
+    background-color: var(--ts-new-header-bg) !important;
+}
+
+.ts-input-wrapper > input::placeholder {
+    color: var(--afd-red) !important;
+}
+
+.tsv-dashboard-grid > .tsv-dashboard-grid {
+    border-color: var(--ts-new-header-bg) !important;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--tsv-border-radius-xxxlarge);
+}

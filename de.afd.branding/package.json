@@ -1,0 +1,34 @@
+{
+  "name": "AFD Theme",
+  "description": "Alternative für Deutschland Theme",
+  "version": "1.0.0",
+  "identifier": "de.afd.branding",
+  "engines": {
+    "teamspeak": 1
+  },
+  "homepage": "https://www.afd.de/",
+  "docsUrl": "https://www.afd.de/",
+  "repository": {
+    "url": "https://github.com/Gamer92000/CleanSpeak",
+    "type": "git",
+    "directory": "Theme"
+  },
+  "image": "logo.png",
+  "license": "MIT",
+  "author": {
+    "name": "AFD Deutschland",
+    "email": "branding@afd.de",
+    "url": "https://julianimhof.de",
+    "userTag": "afd@myteamspeak.com"
+  },
+  "content": {
+    "themes": [
+      {
+        "name": "Dark",
+        "source": "afd-dark.css",
+        "apiVersion": 1,
+        "image": "logo.png"
+      }
+    ]
+  }
+}
