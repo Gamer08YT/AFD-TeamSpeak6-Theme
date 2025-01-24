@@ -16,7 +16,7 @@
 }
 
 .ts-title-logo {
-    background-image: url("tsui://extension/de.jaxnprivate.afd/logo-light.png") !important;
+    background-image: url("tsui://extension/de.afd.branding/logo-light.png") !important;
     content: " ";
     width: 100% !important;
     height: 2.5rem !important;
