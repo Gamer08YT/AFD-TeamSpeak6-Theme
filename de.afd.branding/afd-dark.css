@@ -52,3 +52,45 @@
     border-width: 1px;
     border-radius: var(--tsv-border-radius-xxxlarge);
 }
+
+
+/**
+ * Special to remove Paywall.
+ */
+
+.tsv-resize-area-container > .ts-join-community {
+    display: none;
+}
+
+.ts-start-community-banner:after {
+    font-size: 2rem;
+    text-shadow: 1px 1px 0 black,
+    -1px 1px 0 black,
+    1px -1px 0 black,
+    -1px -1px 0 black,
+    2px 2px 0 black,
+    -2px 2px 0 black,
+    2px -2px 0 black,
+    -2px -2px 0 black;
+    content: "✗ Deine Stimme am 23.02.2025!";
+}
+
+.ts-start-community-banner {
+    background-image: url("tsui://extension/de.afd.branding/banner.jpg") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 12rem !important;
+}
+
+.ts-start-community-banner__title:before {
+    content: "Test";
+    display: block;
+}
+
+.ts-start-community-banner__title, .ts-start-community-banner__info {
+    display: none;
+}
+
+.ts-start-community-banner > div > .tsv-button {
+    display: none;
+}
