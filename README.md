@@ -26,7 +26,7 @@ Dann können Sie folgenden Link in Ihrem Browser öffnen:
 
 [Devtools JSON](http://localhost:9222/json)
 
-Kopieren Sie die folgende URL und setzen Sie sie hinter ```http://localhost:9222``:
+Kopieren Sie die folgende URL und setzen Sie sie hinter ``http://localhost:9222``:
 
 ![Dev Tools JSON](assets/img/dev-tools-json.png)
 
