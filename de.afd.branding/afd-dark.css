@@ -165,3 +165,10 @@
     border-style: solid;
     border-width: 2px;
 }
+
+/**
+ * Icon Margin Fix.
+ */
+.ts-account-badges-icon {
+    margin-top: var(--tsv-padding-h-small);
+}
