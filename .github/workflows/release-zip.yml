@@ -1,0 +1,33 @@
+name: Create Release Zip and Attach
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  create-zip-and-attach:
+    name: Zip Folder and Attach to Release
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Install required zip tools (Linux already includes this by default)
+      - name: Prepare zip tools
+        run: sudo apt-get install -y zip
+
+      # Zip the folder
+      - name: Create ZIP archive
+        run: |
+          zip -r de.afd.branding.zip de.afd.branding
+
+      # Attach the zip archive to the release
+      - name: Upload zip to Release
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ github.event.release.upload_url }}
+          asset_path: ./de.afd.branding.zip
+          asset_name: de.afd.branding.zip
+          asset_content_type: application/zip
