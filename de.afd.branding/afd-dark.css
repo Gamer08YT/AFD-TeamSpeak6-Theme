@@ -76,7 +76,7 @@
 }
 
 .ts-start-community-banner {
-    background-image: url("tsui://extension/de.afd.branding/banner.jpg") !important;
+    background-image: url("tsui://extension/de.afd.branding/banner-upscaled.png") !important;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 12rem !important;
