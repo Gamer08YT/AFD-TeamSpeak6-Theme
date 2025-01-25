@@ -20,7 +20,7 @@ Wir haben versucht, uns an die [AFD-Branding-Richtlinien](https://www.afd.de/ers
 
 Sie müssen TeamSpeak mit dem Remote Debugging Port Argument starten, zum Beispiel:
 
-```„C:\Program Files\TeamSpeak\TeamSpeak.exe“ --remote-debugging-port=9222``
+``„C:\Program Files\TeamSpeak\TeamSpeak.exe“ --remote-debugging-port=9222``
 
 Dann können Sie folgenden Link in Ihrem Browser öffnen:
 
