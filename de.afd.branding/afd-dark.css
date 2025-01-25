@@ -95,7 +95,7 @@
     background-image: url("tsui://extension/de.afd.branding/banner-upscaled.png") !important;
     background-repeat: no-repeat;
     background-size: cover;
-	background-position-y: 70%;
+    background-position-y: 70%;
     min-height: 12rem !important;
 }
 
@@ -160,7 +160,7 @@
     background-size: 101%;
 }
 
-.tsv-dashboard-chats .server-hosting > .tsv-dashboard-widget , .tsv-social-column{
+.tsv-dashboard-chats .server-hosting > .tsv-dashboard-widget, .tsv-social-column {
     border-color: #00ccff !important;
     border-style: solid;
     border-width: 2px;
