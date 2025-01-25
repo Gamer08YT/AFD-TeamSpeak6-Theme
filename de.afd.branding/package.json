@@ -9,16 +9,16 @@
   "homepage": "https://www.afd.de/",
   "docsUrl": "https://www.afd.de/",
   "repository": {
-    "url": "https://github.com/Gamer92000/CleanSpeak",
+    "url": "https://github.com/Gamer08YT/AFD-TeamSpeak6-Theme",
     "type": "git",
-    "directory": "Theme"
+    "directory": "de.afd.branding"
   },
   "image": "logo.png",
   "license": "MIT",
   "author": {
     "name": "AFD Deutschland",
     "email": "branding@afd.de",
-    "url": "https://julianimhof.de",
+    "url": "https://afd.de",
     "userTag": "afd@myteamspeak.com"
   },
   "content": {
