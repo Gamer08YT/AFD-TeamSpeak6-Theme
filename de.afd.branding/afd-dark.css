@@ -152,10 +152,7 @@
     border-color: #00ccff !important;
     border-style: solid;
     border-width: 2px;
-    border-top-left-radius: 17px;
-    border-top-right-radius: 17px;
-    border-bottom-right-radius: 22px;
-    border-bottom-left-radius: 22px;
+    border-radius: 17px 17px 22px 22px;
 }
 
 .ts-discovery-card.ts-discovery-card--sticky[data-v-0a9f8238] {
